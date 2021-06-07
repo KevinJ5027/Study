@@ -1,0 +1,38 @@
+#wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+#toptitle{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#subtitle1{
+	color: #E6007E;
+	font-weight: bold;
+}
+#subtitle2{
+	color: gray;
+
+}
+header span{
+	float: left;
+}
+header nav{
+	float: right;
+	color: gray;
+	border: 2px solid red;
+}
+aside{
+	width: 30px;
+	clear: both;
+	float: left;
+	text-align: center;
+	color: #E6007E;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+section{
+	float: left ;
+	margin-left: 10px;
+	font-size: 1.1em;
+}
