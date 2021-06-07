@@ -1,0 +1,85 @@
+//21-06-07 HTML Example
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>title</title>
+<link rel="stylesheet" href="example4.css">
+</head>
+<body>
+</body>
+<div id="wrapper">
+	<header>
+		<span id="toptitle">많이본뉴스</span>
+		<span id="subtitle1">TV연애</span>
+		<span id="subtitle2"> &nbsp;|&nbsp;종합</span>
+		<nav id="more"><img src="images/3.PNG"></nav><br>
+	</header>
+	<aside id="number">
+		<p>1</p>
+		<p>2</p>
+		<p>3</p>
+		<p>4</p>
+		<p>5</p>
+		<p>6</p>
+		<p>7</p>
+		<p>8</p>
+		<p>9</p>
+		<p>10</p>
+	</aside>
+	<section>
+		<p>'진행논란' 이휘재 수난 계속...부인 SNS까지 공</p>
+		<p>[스타톡톡]최유정 김도연도.. 이젠 정말 굿바이 IOI</p>
+		<p>SBS"이휘재 논란 반성, 2017년 최선 다하겠다"[공식]</p>
+		<p>[단독]드렁큰타이거 2017년 끝으로 역사 속으로</p>
+		<p>새해 드라마들, 안방에서 정의를 외치다</p>
+		<p>'올드스쿨'허영란 "야인시대"당시 19살, 기생役 어려워</p>
+		<p>[딘독]송지효 이어 김종국 특집...굿바이 '런닝맨'</p>
+		<p>그 많던 보이그룹은 어디로 갔나</p>
+		<p>머라이어 캐리, 최악 립싱크..."공연 할 여건 안 됐다"</p>
+		<p>[MD포커스]규현'신서유기3'출연,'라스'작가 추천이었...</p>
+
+	</section>
+</div>
+</html>
+
+//example4.css
+#wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+#toptitle{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#subtitle1{
+	color: #E6007E;
+	font-weight: bold;
+}
+#subtitle2{
+	color: gray;
+
+}
+header span{
+	float: left;
+}
+header nav{
+	float: right;
+	color: gray;
+	border: 2px solid red;
+}
+aside{
+	width: 30px;
+	clear: both;
+	float: left;
+	text-align: center;
+	color: #E6007E;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+section{
+	float: left ;
+	margin-left: 10px;
+	font-size: 1.1em;
+}
